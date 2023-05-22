@@ -64,14 +64,14 @@ Experimental results on the M2CAI dataset (data split is the same as the challen
 
 - Stage-1 training the VFE:
 
-- Path to stage1 model: (https://  ) 
+- Path to stage1 model: (https://www.dropbox.com/scl/fo/eo7wiux09wmgeecat1vx9/h?dl=0&rlkey=6gz3k7268c8pn4bsxxa98pfro) 
 
 
 - Stage-2 training the LAST:
 
-- Path to stage2 model: (https://  ) 
+- Path to stage2 model: (https://www.dropbox.com/scl/fo/eo7wiux09wmgeecat1vx9/h?dl=0&rlkey=6gz3k7268c8pn4bsxxa98pfro) 
 
-- Path to video feature files from stage 1 model: (https://  ) 
+- Path to video feature files from stage 1 model: (https://www.dropbox.com/scl/fo/eo7wiux09wmgeecat1vx9/h?dl=0&rlkey=6gz3k7268c8pn4bsxxa98pfro) 
 
 
 ## Prerequisites
