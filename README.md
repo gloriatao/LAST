@@ -113,8 +113,6 @@ The **preprocess_video2npy_multiprocessing.py** takes the following options:
 ## Train-VFE
 The **train_stage1.py** takes the following options:
 
-- pretrained weights `swin_base_patch4_window7_224.pth`  (https://huggingface.co/microsoft/swin-base-patch4-window7-224)
-
 - `batch_size`: default to `150`
 
 - `epochs_init`: use train-val split as 32-8 to obtain the optimum training epoch: T-opt, default to `10`
