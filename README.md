@@ -60,7 +60,7 @@ Experimental results on the M2CAI dataset (data split is the same as the challen
 |Ours (VFE+FE+LSC) |93.4|
 
 
-## We also provide preprocessed video data, intermediate features, stage-1 model and stage-2 model for the Cholec80 dataset.
+## We also provide video features, stage-1 model and stage-2 model for the Cholec80 dataset.
 
 - Stage-1 training the VFE:
 
