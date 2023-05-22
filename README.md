@@ -14,7 +14,7 @@ Shanghai Jiao Tong University
 When developing context-aware systems, automatic surgical phase recognition and tool presence detection are two essential tasks. There exist previous attempts to develop methods for both tasks but majority of the existing methods utilize a frame-level loss function (e.g., cross-entropy) which does not fully leverage
 the underlying semantic structure of a surgery, leading to sub-optimal results. In this paper, we propose multi-task learning-based, LAtent Space-constrained Transformers, referred as LAST, for automatic surgical phase recognition and tool presence detection. Our design features a two-branch transformer architecture with a novel and generic way to leverage video-level semantic information during network training. This is done by learning a non-linear compact presentation of the underlying semantic structure information of surgical videos through a transformer variational autoencoder (VAE) and by encouraging network predictions to follow the learned statistical distributions. In other words, LAST is of structure-aware and favors predictions that lie on the extracted low dimensional data manifold.
 
-<img src='imgs/Fig1.png' width='1040' height='280'>
+<img src='imgs/image1.png'>
 
 ## Results
 
@@ -41,14 +41,15 @@ Experimental results on the M2CAI dataset (data split is the same as the challen
 **Phase**
 |     Methods      | Accuracey | Precision | Recall | Jaccard |
 |:----------------:|:---------:|:---------:|:------:|:-------:|
-|Dergachyova et al.|70.7±6.1   |:---------:|:------:|51.5±14.1|
-|Twinanda et al.   |79.5±12.1  |:---------:|:------:|64.1±10.3|
-|Cadene et al.     |86.9±11.0  |:---------:|:------:|71.9±12.7|
+|Dergachyova et al.|70.7±6.1   |-|-|51.5±14.1|
+|Twinanda et al.   |79.5±12.1  |-|-|64.1±10.3|
+|Cadene et al.     |86.9±11.0  |-|-|71.9±12.7|
 |Jin et al. 2018   |81.7±8.1   |81.0±8.3   |81.6±7.2|65.4±8.9 |
 |Jin et al. 2021   |87.0±8.6   |87.8±6.9   |88.4±5.3|75.1±6.9 |
 |Gao et al.        |87.2±9.3   |88.0±6.7   |87.5±5.5|74.7±7.7 |
 |Ours (VFE only)   |81.5±4.8   |73.9±4.3   |79.9±4.5|62.0±4.8 |
 |Ours (VFE+FE+LSC) |91.5±5.6   |86.3±7.5   |88.7±7.3|77.8±10.1|
+
 **Tool**
 |     Methods      |      mAP  |
 |:----------------:|:---------:|
