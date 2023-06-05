@@ -66,12 +66,15 @@ Experimental results on the M2CAI dataset (data split is the same as the challen
 
 - Path to stage1 model: (https://www.dropbox.com/scl/fo/eo7wiux09wmgeecat1vx9/h?dl=0&rlkey=6gz3k7268c8pn4bsxxa98pfro) 
 
+- Path to preprocessed label file (.pickle) for the Cholec80 dataset  https://pan.baidu.com/s/1eAeoA0UUsj7FIqDz2g9RMg?pwd=0000 
+
 
 - Stage-2 training the LAST:
 
 - Path to stage2 model: (https://www.dropbox.com/scl/fo/eo7wiux09wmgeecat1vx9/h?dl=0&rlkey=6gz3k7268c8pn4bsxxa98pfro) 
 
 - Path to video feature files from stage 1 model: (https://www.dropbox.com/scl/fo/eo7wiux09wmgeecat1vx9/h?dl=0&rlkey=6gz3k7268c8pn4bsxxa98pfro) 
+
 
 
 ## Prerequisites
